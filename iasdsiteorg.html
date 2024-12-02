@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Adventista do Sétimo Dia Vila Brasilândia</title>
+    <style>
+        /* Resetando algumas propriedades padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: #fff;
+            color: #333;
+            padding: 10px 0;
+        }
+
+        header .logo img {
+            width: 50px;
+            margin-left: 20px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner principal */
+        #home .banner {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        #home .banner h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Seção Sobre */
+        #sobre {
+            padding: 40px;
+            background-color: #e0fbfc;
+            text-align: center;
+        }
+
+        #sobre h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Seção de Eventos */
+        #eventos {
+            padding: 40px;
+            background-color: #f1faee;
+            text-align: center;
+        }
+
+        .eventos-lista {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .evento {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .evento h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #005f73;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #004d60;
+        }
+
+        /* Seção de Líderes */
+        #lideres {
+            padding: 40px;
+            background-color: #edf6f9;
+        }
+
+        #lideres ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        #lideres ul li {
+            margin: 20px 0;
+        }
+
+        #lideres ul li h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        #lideres ul li p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        /* Seção de Contato */
+        #contato {
+            padding: 40px;
+            background-color: #f1faee;
+        }
+
+        #contato form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contato form input, #contato form textarea {
+            width: 300px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contato form button {
+            width: 150px;
+            background-color: #005f73;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #contato form button:hover {
+            background-color: #004d60;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-links {
+            margin-top: 10px;
+        }
+
+        footer .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        footer .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="imagemlogo.png.png" alt="Logo da Igreja" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#lideres">Líderes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Página Inicial -->
+    <section id="home">
+        <div class="banner">
+            <h1>Bem-vindo à Igreja Adventista do Sétimo Dia Vila Brasilândia</h1>
+            <p>Seja bem-vindo! Junte-se a nós nos cultos e eventos.</p>
+        </div>
+    </section>
+
+    <!-- Sobre a Igreja -->
+    <section id="sobre">
+        <h2>Sobre a Igreja</h2>
+        <p>A Igreja Adventista do Sétimo Dia de Vila Brasilândia tem como missão levar o evangelho e transformar vidas na comunidade. Fundada com o propósito de adorar a Deus, servir ao próximo e anunciar a mensagem de esperança em Cristo.</p>
+        <p>Somos uma comunidade ativa, com muitos ministérios voltados para o serviço social, educacional e de evangelismo.</p>
+    </section>
+
+    <!-- Eventos -->
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <div class="eventos-lista">
+            <div class="evento">
+                <h3>Culto de Ação de Graças</h3>
+                <p>Data: 14/12/2024</p>
+                <p>Horário: 17h</p>
+                <button>Confirmar Presença</button>
+            </div>
+            <div class="evento">
+                <h3>Retiro de Carnaval Jovem</h3>
+                <p>Data: 28/02/2024 à 04/03/2024</p>
+                <p>Local: Ibiúna-SP</p>
+                <button>Confirmar Presença</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Líderes -->
+    <section id="lideres">
+        <h2>Líderes dos Departamentos</h2>
+        <ul>
+            <li>
+                <h3>Pastor</h3>
+                <p>Anderson Mendonça</p>
+                <p>Líder espiritual responsável pelo ensino e orientação da igreja.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Secretaria</h3>
+                <p>Secretária: Claúdia dos Santos</p>
+                <p>Responsável pela organização administrativa, gestão de documentos, e suporte à comunicação entre os membros e ministérios da igreja.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Tesouraria</h3>
+                <p>Tesoureira: Claúdia dos Santos</p>
+                <p>Responsável pela gestão financeira, controle das receitas, e pela transparência no uso dos recursos da igreja.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Ministério Infantil</h3>
+                <p>Diretor: Lucia Helena</p>
+                <p>Responsável por organizar atividades e cultos para crianças.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Ministério de Louvor</h3>
+                <p>Diretor: Aírton Freitas</p>
+                <p>Responsável por liderar o louvor nas programações.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Ministério de Comunicação</h3>
+                <p>Diretor: Vitor Santana</p>
+                <p>Responsável pela comunicação interna e externa da igreja.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Ministério de Som e Imagem</h3>
+                <p>Diretor: Kayllo Neves</p>
+                <p>Responsável pela sonorização e transmissões da igreja.</p>
+                <button>Contato</button>
+            </li>
+            <li>
+                <h3>Ministério Jovem</h3>
+                <p>Diretor: Daniel de Moura</p>
+                <p>Responsável pela organização de programações jovens externas e internas da igreja.</p>
+                <button>Contato</button>
+            </li>
+            
+            
+        </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida ou precisa de ajuda? Entre em contato conosco!</p>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Igreja Adventista do Sétimo Dia de Vila Brasilândia</p>
+        <p>Endereço: Rua Ruiva, nº 258 - Brasilândia, São Paulo-SP, 02844-110</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+        </div>
+    </footer>
+</body>
+</html>
